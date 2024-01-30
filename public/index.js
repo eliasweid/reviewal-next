@@ -4,7 +4,6 @@ import feature from "./feature.png";
 import expo from "./expo.png";
 import expo01 from "./expo01.png";
 import expo02 from "./expo02.png";
-import javascript from "./javascript.png";
 import react from "./react.png";
 import scene from "./scene.png";
 import scene2 from "./scene2.png";
@@ -17,7 +16,6 @@ export default {
   expo,
   expo01,
   expo02,
-  javascript,
   react,
   scene,
   scene2,

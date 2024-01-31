@@ -66,6 +66,7 @@ body {
 .banner04 {
   background: url("/banner04.svg");
   background-size: cover;
+  padding-top: 60px;
   background-position: center;
   background-repeat: no-repeat;
   height: 100%;

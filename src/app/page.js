@@ -15,6 +15,7 @@ export default function Home() {
         banner="banner"
         tag="beauty"
         showBtn
+        imgStyle={styles.sectionImg}
       />
 
       <Section
@@ -24,6 +25,7 @@ export default function Home() {
         reverse
         banner="banner04"
         tag="hej"
+        imgStyle={styles.sectionImg}
       />
 
       <Section
@@ -32,6 +34,7 @@ export default function Home() {
             Direkt i appen kan du se vad tidigare reviwal's har tyckt och få hjälp att hitta din nya favorit."
         mockupImg={_public.mockup}
         banner="banner05"
+        imgStyle={styles.sectionImg}
       />
 
       <Section
@@ -41,12 +44,14 @@ export default function Home() {
         mockupImg={_public.scene2}
         reverse
         banner="banner02"
+        imgStyle={styles.sectionImg}
       />
       <Section
         title="Vi värdesätter just din åsikt!"
         description="Som tack för dina recensioner kommer du få möjlighet att få exklusiva erbjudanden och delta i unika kampanjer."
         mockupImg={_public.homeCards}
         banner="banner05"
+        imgStyle={styles.customImage}
       />
 
       <div className={`${styles.section} ${styles.bgWhite}`}>
@@ -76,8 +81,8 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="px-4 py-2 justify-center items-center bg-primary flex-col text-center banner04">
-        <p className={`${styles.pText} ${styles.whiteText}`}>
+      <div className="px-4 py-4 justify-center items-center bg-primary flex-col text-center banner04">
+        <p className={`${styles.sText} ${styles.whiteText}`}>
           Copyright Ⓒ 2023 Reviewal.{" "}
           <span className="bold">Support inquiries: info@reviewal.io</span>
         </p>

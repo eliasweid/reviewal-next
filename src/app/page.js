@@ -1,4 +1,4 @@
-import TestComp from "../../components/testcomp";
+import Section from "../../components/Section";
 import _public from "../../public";
 import styles from "./Global";
 import Image from "next/image";
@@ -7,7 +7,7 @@ import Button from "../../components/Button";
 export default function Home() {
   return (
     <>
-      <TestComp
+      <Section
         title="Prova produkter helt utan kostnad och dela dina åsikter med oss!"
         description="Vi förstår vikten av att hitta rätt produkter som passar just dig.
           Du får prova produkten helt utan kostnad, i utbyte skriver du en ärlig recension och du får självklart behålla produkten."
@@ -17,7 +17,7 @@ export default function Home() {
         showBtn
       />
 
-      <TestComp
+      <Section
         title="Hur funkar det?"
         description="Ladda ner appen och registrera dig, därefter ser du våra pågående kampanjer och kan ansöka till kampanjer du är intresserad av. "
         mockupImg={_public.feature}
@@ -26,7 +26,7 @@ export default function Home() {
         tag="hej"
       />
 
-      <TestComp
+      <Section
         title="Världsledande varumärken!"
         description="Vi samarbetar med ledande skönhetsmärken för att kunna erbjuda dig det bästa inom hudvård, make-up och mycket mer. 
             Direkt i appen kan du se vad tidigare reviwal's har tyckt och få hjälp att hitta din nya favorit."
@@ -34,7 +34,7 @@ export default function Home() {
         banner="banner05"
       />
 
-      <TestComp
+      <Section
         title="Produkten skickas vanligtvis inom 2 veckor."
         description="Direkt under mina kampanjer kan du se dina pågående kampanjer. Blir du utvald kommer produkterna skickas direkt till din dörr inom 2 veckor.
         När du testat produkten i lugn och ro är det dags att lämna en recension hos våra utvalda samarbetspartners."
@@ -42,7 +42,7 @@ export default function Home() {
         reverse
         banner="banner02"
       />
-      <TestComp
+      <Section
         title="Vi värdesätter just din åsikt!"
         description="Som tack för dina recensioner kommer du få möjlighet att få exklusiva erbjudanden och delta i unika kampanjer."
         mockupImg={_public.homeCards}
